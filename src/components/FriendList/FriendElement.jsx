@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import {
   Avatar,
   OnlineIndicator,
@@ -15,3 +16,9 @@ const FriendElement = ({ avatar, name, isOnline }) => {
 };
 
 export default FriendElement;
+
+PropTypes.PropTypes = {
+  avatar: PropTypes.string,
+  name: PropTypes.string,
+  isOnline: PropTypes.bool,
+};
