@@ -12,18 +12,12 @@ export const App = () => {
   const { username, tag, location, avatar, stats } = userInfo;
   return (
     <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        flexDirection: 'column',
-        flexWrap: 'wrap',
-        gap: '20px',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-        backgroundColor: '#383838',
-      }}
+    style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      flexDirection: 'column',
+    }}
     >
       <Profile
         username={username}

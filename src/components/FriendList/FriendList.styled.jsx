@@ -6,7 +6,11 @@ const FriendsList = styled.ul`
   list-style: none;
   padding: 0;
   margin: 0;
-  background-color: #f5f5f5;
+  margin-bottom: 10px;
+  gap: 10px;
+  background-color: pink;
+  border-radius: 10px;
+  overflow: hidden;
 `;
 
 const FriendListItem = styled.li`
@@ -14,8 +18,8 @@ const FriendListItem = styled.li`
   align-items: center;  
   width: 100%
   margin-bottom: 10px;
+  background-color: skyblue;
   padding: 5px;
-  
 `;
 
 const Avatar = styled.img`
